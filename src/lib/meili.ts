@@ -1,3 +1,5 @@
+// This directive guarantees that the file is only imported in server-side code,
+// preventing the MEILI_API_KEY from being exposed to the browser.
 import 'server-only';
 import { MeiliSearch } from "meilisearch";
 
